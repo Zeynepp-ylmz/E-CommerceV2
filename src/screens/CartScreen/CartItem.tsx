@@ -7,7 +7,7 @@ import Ionicons from '@expo/vector-icons/Ionicons';
 import { s, vs } from 'react-native-size-matters'
 import AppButton from '../../components/AppButton'
 import { useDispatch, useSelector } from 'react-redux'
-import { addItemToCart, deleteFromCart, removeItemFromCart } from '../../store/Reducers/cartSlice'
+import { addItemToCart, removeItemFromCart } from '../../store/reducers/cartSlice'
 import { deleteAlert } from '../../components/alert/deleteAlert'
 import { RootState } from '../../store/store'
 import { useTranslation } from 'react-i18next'

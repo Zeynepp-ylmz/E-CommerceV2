@@ -4,7 +4,7 @@ import ProductCard from './ProductCard'
 import { Product } from '../../types/appProduct';
 import Filters from '../../screens/HomeScreen/Filters';
 import { s, vs } from 'react-native-size-matters';
-import { addItemToCart } from '../../store/Reducers/cartSlice';
+import { addItemToCart } from '../../store/reducers/cartSlice';
 import { useDispatch, useSelector } from 'react-redux';
 import { getProductsData } from '../../config/dataServices';
 

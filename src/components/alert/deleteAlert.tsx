@@ -1,6 +1,6 @@
 import { Alert } from 'react-native'
-import { removeItemFromCart } from '../../store/Reducers/cartSlice';
-import { addFavorited } from '../../store/Reducers/favoriteSlice';
+import { removeItemFromCart } from '../../store/reducers/cartSlice';
+import { addFavorited } from '../../store/reducers/favoriteSlice';
 
 
 

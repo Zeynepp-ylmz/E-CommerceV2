@@ -9,7 +9,7 @@ import { signInWithEmailAndPassword } from 'firebase/auth'
 import { auth } from '../../config/firebase'
 import { Toast } from 'toastify-react-native'
 import { useDispatch } from 'react-redux'
-import { setUser } from '../../store/Reducers/userSlice'
+import { setUser } from '../../store/reducers/userSlice'
 import { useTranslation } from 'react-i18next'
 
 const Form = () => {
